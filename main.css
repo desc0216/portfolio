@@ -2,22 +2,100 @@
     background-color: #4D006C;
 }
 
-.image {
+.image-one, .image-two, .image-three, .image-four {
     width: 25rem;
     border-radius: 5rem;
     border-width: 5rem;
+    
 }
 
-h1, h2, h3 {
+.image-one:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.image-two:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.image-three:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.image-four:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+h1 {
     font-family: "gothiks-round", sans-serif;
     font-weight: 800;
     font-style: normal;
     color: white;
+    margin: auto;
 }
 
-p, .nav-link {
+h2, h3 {
+    font-family: "gothiks-round", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    font-size: 65px;
+    background-color: #C153AA;
+    border-radius: 40%;
+    width: 35rem;
+    margin: auto;
+}
+
+.nav-link {
     font-family: "gothiks-round", sans-serif;
     font-weight: 300;
     font-style: normal;
     color: white;
+}
+
+p {
+    font-family: "gothiks-round", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: larger;
+    width: 25rem;
+    font-size: 28px;
+    margin: auto;
+}
+
+
+main, header{
+    background-image: url('images/nasa-rTZW4f02zY8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    background-image: url('images/nasa-rTZW4f02zY8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
+.container {
+    padding: 45px;
+}
+
+.Vicky {
+    width: 40rem;
+    border-radius: 25%;
+}
+
+.contact-form {
+   width: 35rem;
+   border-radius: 35rem;
 }
