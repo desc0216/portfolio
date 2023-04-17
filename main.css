@@ -9,6 +9,14 @@
     
 }
 
+.image-one {
+    padding: 3rem;
+}
+
+.image-two {
+    padding: 3rem;
+}
+
 .image-one:hover {
     transform: scale(1.1);
     transition: transform 0.2s ease-in-out;
@@ -35,6 +43,7 @@ h1 {
     font-style: normal;
     color: white;
     margin: auto;
+    padding: 2rem;
 }
 
 h2, h3 {
@@ -90,12 +99,41 @@ footer {
     padding: 45px;
 }
 
-.Vicky {
-    width: 40rem;
+.vicky {
+    width: 25rem;
     border-radius: 25%;
 }
 
-.contact-form {
-   width: 35rem;
+.vicky:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.ethan:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+.form {
+   width: 40rem;
    border-radius: 35rem;
+   margin: auto;
+   background-color: aliceblue;
+   border-radius: 8%;
+   font-family: "gothiks-round";
+}
+
+.contact-form {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.contact-para {
+    background-image: url('images/nasa-rTZW4f02zY8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+  
+.button {
+    padding: 10px;
 }
