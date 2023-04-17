@@ -141,3 +141,29 @@ footer {
 .box {
     padding-left: 5rem;
 }
+
+.card {
+    margin: 0 1rem;
+    width: 28rem;
+  }
+  
+  @media screen and (max-width: 767px) {
+
+    .container-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr 1fr 4fr;
+        justify-content: center;
+      }
+    
+      .person1 {
+          grid-column: 1/2;
+          grid-row: 1 / 2;
+      }
+  
+      .person2 {
+          grid-column: 1/2;
+          grid-row: 3 / 4;
+      }
+
+  }
